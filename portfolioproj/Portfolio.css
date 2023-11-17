@@ -764,6 +764,15 @@ span{
     }
 }
 @media(max-width:414px){
+  html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
+    }
+    .design{
+        width: 400px;
+    }
 
 }
 }
