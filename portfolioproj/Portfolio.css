@@ -729,11 +729,11 @@ span{
         transition: .3s;
     }
     .home-text h1{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .home-text p{
         font-size: 1.1rem;
-        width: 400px;
+        width: 300px;
     }
     .home-text .btn{
         padding: 10px 20px;
@@ -751,7 +751,7 @@ span{
     }
     .about-text p{
         font-size: 1rem;
-        width: 400px;
+        width: 300px;
     }
     .about-text .btn{
         padding: 10px 20px;
