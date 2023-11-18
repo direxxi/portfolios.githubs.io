@@ -109,6 +109,7 @@ section{
 
 }.box{
     position: relative;
+    margin-left: 100px;
     width: 300px;
     height: 300px;
     background: rgba(0, 0, 0, 0.5);
@@ -300,7 +301,7 @@ span{
 }
 .box2{
     position: relative;
-    left: 200px;
+    margin-left: 300px;
     width: 300px;
     height: 300px;
     background: rgba(0, 0, 0, 0.5);
@@ -667,6 +668,10 @@ span{
     .navlist.active{
         top:100%;
     }
+  .box2{
+    position: relative;
+    right: 100px;
+  }
 }
 @media(max-width: 800px){
     .home{
@@ -680,12 +685,16 @@ span{
     .home-img{
         text-align:center;
     }
-    .box{
+    .home-img{
         width:440px;
         height: auto;
+        position: relative;
+        left: 40px;
     }
     .about{
         grid-template-columns: 1fr;
+        position: relative;
+        left: 30px;
     }
     .about-img{
         text-align: center;
@@ -711,6 +720,7 @@ span{
     .box{
         width: 300px;
         height: auto;
+      
     }
     .contact .action form input[type='email']{
         width: 310px;
@@ -739,9 +749,10 @@ span{
         padding: 10px 20px;
         font-size: 1rem;
     }
-    .box{
-        width: 200px;
+    .box2{
+        width: 300px;
         height: auto;
+    
     }
     .about{
         padding: 70px 3%;
@@ -760,11 +771,12 @@ span{
     .box2{
         width: 300px;
         height: auto;
+
         
     }
 }
 @media(max-width:414px){
-  html{
+    html{
         overflow-x: hidden;
     }
     body{
